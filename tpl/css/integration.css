@@ -1,0 +1,43 @@
+.table {display:none;}
+.table.show {display:table;}
+.table th {background: #f7f7f7;}
+.table td {padding: 0.45rem .75rem; vertical-align: top; border-top: 1px solid #dee2e6; font-size: 14px;}
+.table tbody {background: #fefff3;}
+.table td a {color:#444;}
+.actions label {margin:0;}
+.table td a:hover {text-decoration:none;color:#000;}
+.refresh-indexability {float:right;line-height: 20px;}
+.flexme {display:flex;align-items:center;}
+.card-header {display: flex;align-items: center;justify-content: space-between;}
+.fitem {flex-grow:1;flex-basis:0;}
+.fitem.title {max-width: 280px;}
+.fitem.advance_filter a{color:inherit;}
+.fitem.advance_filter a span {font-size: 14px;}
+.fitem.advance_filter a:hover {text-decoration:none;}
+.page_type {position:relative;}
+.page_type .ul-filter {position: absolute; top: 100%; background: #fefff3;width: 100%; max-width: 160px;}
+.page_type ul {display: block;padding:10px;border:1px solid #ccc;}
+.page_type .ul-filter.initial {max-height: 0px;transition:max-height linear .2s; overflow: hidden;}
+.page_type .ul-filter.open {max-height:450px;}
+.page_type ul li {display: flex;align-items: center;justify-content: space-between;}
+.page_type ul li input {position: relative;bottom: -5px;}
+.page_type ul li:last-child {border-top: 1px solid #ccc; padding-top: 7px; margin-bottom: 0;}
+.open_type_filter .fa-angle-up{display:none;}
+.open_type_filter.open .fa-angle-down{display:none;}
+.open_type_filter.open .fa-angle-up {display:inline-block;}
+.open_type_filter:focus,.open_type_filter:active {border-color: inherit; -webkit-box-shadow: none; box-shadow: none;}
+.fitem.advance_filter a.apply_filter {display: block; font-size: 14px; color: #fff; background: #319200; padding: 1px 10px 4px; border-radius: 6px; margin-left: auto;}
+.hidebody tbody{display:none;}
+.hidebody thead tr th:last-child {display:none;}
+thead th span {display:none;}
+.hidebody th span {display: inline-block; margin-left: 10px; background: #ffd589; padding: 0px 10px; border-radius: 5px;border: 1px solid #ffa400; }
+.hidebody th span:hover {background:#ffdf89}
+.hidebody th span a {font-weight:normal;font-size: 14px;color: #000;}
+.hidebody th span a:hover {text-decoration:none;}
+.integration-card {background: #f2faff !important;padding:25px;}
+.integration-card form {width: 100%; display: flex; align-items: center; justify-content: space-between;}
+.integration-card input.fw {width:calc(100% - 60px);}
+.integration-card .card-body {color:#000;}
+.integration-card .card-body,.integration-card .card-footer {padding: 10px 0px; background: none;}
+.card-body span img {max-width:40px;}
+.card-body h4 {margin: 0;padding-left: 10px;}
